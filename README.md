@@ -30,3 +30,20 @@ uvicorn app:app --host localhost --port 8000
 ```bash
 streamlit run client.py
 ```
+## Installation
+### To set up the project, clone the repository and install the dependencies:
+```bash
+git clone [<repository-url](https://github.com/nani2357/deployment_LLM_as_API_with_langchain_and_FastAPI.git)>
+pip install -r requirements.txt
+```
+
+### Ensure to create a .env file with your OpenAI API key:
+
+```bash
+OPENAI_API_KEY='your_openai_api_key_here'
+
+```
+
+## API Documentation
+Once the server is running, the API documentation is available at http://localhost:8000/docs. This page provides an interactive interface where you can test the API endpoints directly.
+
